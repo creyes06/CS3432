@@ -1,0 +1,30 @@
+# Truth table
+# Generated from circuit test
+# Exported on Sat Oct 23 17:54:04 MDT 2021
+
+# Hints and Notes on Formatting:
+# * You can edit this file then import it back into Logisim!
+# * Anything after a '#' is a comment and will be ignored.
+# * Blank lines and separator lines (e.g., ~~~~~~) are ignored.
+# * Keep column names simple (no spaces, punctuation, etc.)
+# * 'Name[N..0]' indicates an N+1 bit variable, whereas
+#   'Name' by itself indicates a 1-bit variable.
+# * You can use 'x' or '-' to indicate "don't care" for both
+#   input and output bits.
+# * You can use binary (e.g., '10100011xxxx') notation or
+#   or hex (e.g., 'C3x'). Logisim will figure out which is which.
+
+I30 I14 I13 I12 I6 I5 I4 | ALU_Src ALU_Ctrl3 ALU_Ctrl2 ALU_Ctrl1 ALU_Ctrl0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 0   1   1   1  0  1  1  |    0        0         0         0         0    
+ 0   1   1   0  0  1  1  |    0        0         0         0         1    
+ 0   1   0   0  0  1  1  |    0        0         0         1         0    
+ 0   0   0   0  0  1  1  |    0        0         0         1         1    
+ 1   0   0   0  0  1  1  |    0        0         1         1         1    
+ -   1   1   1  0  0  1  |    1        0         0         0         0    
+ -   1   1   0  0  0  1  |    1        0         0         0         1    
+ -   1   0   0  0  0  1  |    1        0         0         1         0    
+ -   0   0   0  0  0  1  |    1        0         0         1         1    
+ -   0   1   0  0  0  0  |    1        0         0         1         1    
+ -   0   1   0  0  1  0  |    1        0         0         1         1    
+
